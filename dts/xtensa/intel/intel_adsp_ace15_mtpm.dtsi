@@ -283,5 +283,51 @@
 			label = "HDA_LINK_IN";
 			status = "okay";
 		};
+
+		hub_ulp_domain: hub_ulp_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <15>;
+		};
+		hub_hp_domain: hub_hpp_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <6>;
+		};
+		io0_domain: io0_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <8>;
+		};
+		io1_domain: io1_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <9>;
+		};
+		io2_domain: io2_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <10>;
+		};
+		io3_domain: io3_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <11>;
+		};
+		hst_domain: hst_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <4>;
+		};
+		ml0_domain: ml0_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <12>;
+		};
+		ml1_domain: ml1_domain {
+			compatible = "intel,adsp-power-domain";
+			lps_handle = <&lps>;
+			bit_position = <13>;
+		};
 	};
 };
