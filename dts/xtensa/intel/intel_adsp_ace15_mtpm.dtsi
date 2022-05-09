@@ -166,6 +166,7 @@
 					&lpgpdma0 3>;
 			dma-names = "tx", "rx";
 			label = "SSP_0";
+			power-domain = <&io0_domain>;
 			status = "okay";
 		};
 
@@ -181,6 +182,7 @@
 					&lpgpdma0 5>;
 			dma-names = "tx", "rx";
 			label = "SSP_1";
+			power-domain = <&io0_domain>;
 			status = "okay";
 		};
 
@@ -196,6 +198,7 @@
 					&lpgpdma0 7>;
 			dma-names = "tx", "rx";
 			label = "SSP_2";
+			power-domain = <&io0_domain>;
 			status = "okay";
 		};
 
@@ -211,6 +214,7 @@
 					&lpgpdma0 9>;
 			dma-names = "tx", "rx";
 			label = "SSP_3";
+			power-domain = <&io0_domain>;
 			status = "okay";
 		};
 
@@ -226,6 +230,7 @@
 					&lpgpdma0 11>;
 			dma-names = "tx", "rx";
 			label = "SSP_4";
+			power-domain = <&io0_domain>;
 			status = "okay";
 		};
 
@@ -241,6 +246,7 @@
 					&lpgpdma0 13>;
 			dma-names = "tx", "rx";
 			label = "SSP_5";
+			power-domain = <&io0_domain>;
 			status = "okay";
 		};
 
